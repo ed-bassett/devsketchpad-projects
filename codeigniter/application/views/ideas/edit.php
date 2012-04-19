@@ -13,6 +13,9 @@
 	<label for="description">Description</label>
 	<textarea rows="5" cols="50" id="description" name="description"><?=$idea['description']?></textarea><br />
 
+	<label for="description">Details</label>
+	<textarea rows="5" cols="50" id="details" name="details"><?=$idea['details']?></textarea><br />
+
 	<label for="url">URL</label>
 	<input id="url" name="url" value="<?=$idea['url']?>" /><br />
 

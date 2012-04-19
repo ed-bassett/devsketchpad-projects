@@ -25,6 +25,7 @@ class Ideas_model extends CI_Model {
 		$data = array(
 			'name'         => $this->input->post('name'),
 			'description'  => $this->input->post('description'),
+			'details'      => $this->input->post('details'),
 			'instructions' => $this->input->post('instructions'),
 			'url'          => $this->input->post('url'),
 			'credits'      => $this->input->post('credits'),
