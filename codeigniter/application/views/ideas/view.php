@@ -11,8 +11,10 @@
 		<h4>Details</h4>
 		<p><?=$idea['details']?></p>
 		<?php endif?>
+		<div id="instructions">
 		<h4>Instructions</h4>
 		<?=$idea['instructions']?>
+		</div>
 		<?php if ($idea['url']):?>
 		<a class="button try" href="<?=$idea['url']?>">Try live demo</a>
 		<?endif?>
