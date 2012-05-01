@@ -6,7 +6,7 @@
 </head>
 <body>
 <div id="header">
-	<h1><a href="/"><img src="/assets/images/logo.png" alt="dev sketchpad logo" /></a></h1>
+	<h1><a href="/"><img src="/assets/images/logo.png" alt="Dev Sketchpad" /></a></h1>
 	<ul id="header_links">
 		<li><a href="/">Projects</a></li>
 		<li><a href="/about/">About</a></li>
