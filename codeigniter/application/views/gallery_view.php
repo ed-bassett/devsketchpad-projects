@@ -5,11 +5,12 @@ foreach ($ideas as $idea):
 ?>
 <div class="page<?php echo $odd_row ? ' odd' : '' ?>">
 	<span class="thumbnail"><img src="/uploads/<?php echo $idea['image']; ?>" alt="project thumbnail" /></span>
-    <div class="details">
+	<div class="details">
 		<h3><a href="/gallery/<?=$idea['slug']?>"><?=$idea['name']?></a></h3>
-        <p><?=$idea['description']?></p>
+		<p><?=$idea['description']?></p>
 		<h4>Credits</h4>
-        <?=$idea['credits']?>
-    </div>
+		<?=$idea['credits']?>
+	</div>
 </div>
 <?php endforeach ?>
+
