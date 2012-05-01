@@ -4,6 +4,9 @@
 			<img src="/uploads/<?=$idea['image']?>" alt="project thumbnail" />
 		<?php if ($idea['url']):?></a><?endif?>
 	</span>
+	<?php if ( $this->tank_auth->is_logged_in() ): ?>
+	<span class="icons"><a href="/gallery/idea_edit/<?=$idea['id']?>/"><img src="/assets/images/icons/edit.png" alt="edit <?=$idea['name']?>" /></a></span>
+	<?php endif ?>
 	<div class="details">
 		<p><?=$idea['description']?></p>
 		<?php if($idea['details']):?>
