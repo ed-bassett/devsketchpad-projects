@@ -230,7 +230,7 @@ strong{
 	margin-top:0px;
 }
 
-.page .button.try a {
+.page a.button {
 	background:#C00000;
 	color:white;
 	font-weight:bold;
@@ -246,7 +246,7 @@ strong{
 	text-shadow: 0px 0px 5px rgba(0,0,0,.5);
 }
 
-.page .button.try a:hover {
+.page a.button:hover {
 	box-shadow:
 		0px 10px 20px 0px rgba(255,255,255,.3) inset,
 		0px 0px 10px 0px rgba(0,0,0,.65)
