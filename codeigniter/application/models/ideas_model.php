@@ -8,7 +8,7 @@ class Ideas_model extends CI_Model {
 
 	public function get_ideas( $id = false ) {
 		if ($id === false) {
-			$query = $this->db->get('ideas');
+			$query = $this->db->order_by('id','asc')->get('ideas');
 			return $query->result_array();
 		}
 		
