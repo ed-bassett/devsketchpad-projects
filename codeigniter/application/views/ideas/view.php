@@ -14,7 +14,7 @@
 		<h4>Instructions</h4>
 		<?=$idea['instructions']?>
 		<?php if ($idea['url']):?>
-		<div class="button try"><a href="<?=$idea['url']?>">Try it</a></div>
+		<div class="button try"><a href="<?=$idea['url']?>">Try live demo</a></div>
 		<?endif?>
 		<h4>Credits</h4>
 		<?=$idea['credits']?>
