@@ -32,13 +32,13 @@ class Gallery extends CI_Controller {
 	}
 	public function idea_edit($id = false)
 	{
-		$data['idea'] = $this->ideas_model->get_ideas($id);
-
-		$data['title'] = 'Edit ' . $data['idea']['name'];
-
 		$this->load->helper('form');
 		$this->load->library('form_validation');
 		$this->load->helper('url');		
+
+		$data['idea'] = $this->ideas_model->get_ideas($id);
+
+		$data['title'] = 'Edit ' . $data['idea']['name'];
 	
 		$this->form_validation->set_rules('name', 'Name', 'required');
 		$this->form_validation->set_rules('description', 'description', 'required');
