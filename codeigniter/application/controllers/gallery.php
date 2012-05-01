@@ -36,6 +36,10 @@ class Gallery extends CI_Controller {
 		$this->load->library('form_validation');
 		$this->load->helper('url');		
 
+		if ( ! $this->tank_auth->is_logged_in() ) {
+			redirect('/');
+		}
+
 		$data['idea'] = $this->ideas_model->get_ideas($id);
 
 		$data['title'] = 'Edit ' . $data['idea']['name'];
