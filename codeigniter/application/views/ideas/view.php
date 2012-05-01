@@ -10,6 +10,5 @@
 		<?=$idea['instructions']?>
 		<h4>Credits</h4>
 		<?=$idea['credits']?>
-		<p><?=$idea['date']?></p>
 	</div>
 </div>
