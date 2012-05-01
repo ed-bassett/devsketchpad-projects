@@ -1,5 +1,9 @@
 <div class="page">
-	<span class="thumbnail"><a href="<?=$idea['url']?>"><img src="/uploads/<?php echo $idea['image']; ?>" alt="project thumbnail" /></a></span>
+	<span class="thumbnail">
+		<?php if ($idea['url']):?><a href="<?=$idea['url']?>"><?endif?>
+			<img src="/uploads/<?=$idea['image']?>" alt="project thumbnail" />
+		<?php if ($idea['url']):?></a><?endif?>
+	</span>
 	<div class="details">
 		<p><?=$idea['description']?></p>
 		<?php if($idea['details']):?>
