@@ -26,7 +26,8 @@ class Gallery extends CI_Controller {
 			'title' => $idea['name'],
 		));
 		$this->load->view('ideas/view', Array(
-			'idea' => $idea,
+			'idea'     => $idea,
+			'can_edit' => $this->tank_auth->is_logged_in(),
 		));
 		$this->load->view('templates/footer');
 	}

@@ -1,8 +1,8 @@
-<div class="page">
+<div class="page<?= $can_edit ? ' has_icons' : '' ?>">
 	<span class="thumbnail">
 		<img src="/uploads/<?=$idea['image']?>" alt="project thumbnail" />
 	</span>
-	<?php if ( $this->tank_auth->is_logged_in() ): ?>
+	<?php if ( $can_edit ) : ?>
 	<span class="icons"><a href="/gallery/idea_edit/<?=$idea['id']?>/"><img src="/assets/images/icons/edit.png" alt="edit <?=$idea['name']?>" /></a></span>
 	<?php endif ?>
 	<div class="details">
