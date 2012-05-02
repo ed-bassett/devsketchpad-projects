@@ -12,11 +12,11 @@ body {
 	/*overflow-x:hidden;*/
 	/*background:rgba(0,0,0,.5);*/
 }
-a, a:active{
+a, a:active {
 	color:#000000;
 	text-decoration:none;
 }
-a:hover{
+a:hover {
 	text-decoration:underline;
 }
 h1, h2, h3, h4, h5, h6 {
