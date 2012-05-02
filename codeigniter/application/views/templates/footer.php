@@ -5,6 +5,9 @@
 		<p>Built on <a href="http://codeigniter.com/">CodeIgniter</a></p>
 	</div>
 	<div class="section">
+		<p><a href="/">Home</a></p>
+	</div>
+	<div class="section">
 		<p><a href="/about/">About</a></p>
 	</div>
 	<div class="section">
