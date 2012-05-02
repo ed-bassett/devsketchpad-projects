@@ -7,5 +7,7 @@
 	<dd>ed[at]devsketchpad.com</dd>
 	<dt>Phone</dt>
 	<dd>+61 405 031 494</dd>
+	<dt>github</dt>
+	<dd><a href="https://github.com/ed-bassett/">github.com/ed-bassett</a></dd>
 </dl>
 </div>
