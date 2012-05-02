@@ -167,22 +167,24 @@ strong{
 	position:relative;
 	left:-105px;
 	padding-left:10px;
-	padding-right:20px;
+	padding-right:10px;
 	margin-bottom:10px;
 	border-radius:2px;
 	color:#707070;
 	box-shadow: 0px 0px 50px 0px rgba(127,127,127,1);
 	background: rgba(127,127,127,.35) url('/assets/images/back.png') bottom right no-repeat;
 }
+.page.has_icons {
+	padding-right:30px;
+}
 .page.odd {
 	border-radius:2px;
 	position:relative;
 	left:105px;
-	padding-left:20px;
-	padding-right:10px;
 	border-left:none;
 	background: rgba(127,127,127,.35) url('/assets/images/back.png') bottom left no-repeat;
 }
+
 .page h3 {
 	margin-top:0px;
 	margin-bottom:8px;
@@ -211,7 +213,7 @@ strong{
 .page .icons {
 	position:relative;
 	margin-left:-40px;
-	left:40px;
+	left:50px;
 	float:right;
 	padding:10px;
 	background:rgba(255,255,255,.8);
